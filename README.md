@@ -9,3 +9,11 @@ A [Subversion](https://subversion.apache.org/) repository can be obtained for ho
 ### Jenkins server
 
 A [Jenkins](https://www.jenkins.io/) Continuous Integration (CI) server is available at [https://mind-step-ci.iiasa.ac.at](https://mind-step-ci.iiasa.ac.at) for hosting test and integration automation jobs. These jobs can be configured and managed via the web interface available under the given link. Job configuration can also be contained in a [Jenkinsfile](https://www.jenkins.io/doc/book/pipeline/jenkinsfile/) stored in your repository. To obtain access, email to ![](images/email.png). Your request will be verified and forwarded to the IIASA ICT department who will contact you by email with the credentials (username and password).
+
+### GitLab server
+
+A [GitLab](https://en.wikipedia.org/wiki/GitLab) CI server is available at [https://gitlab.iiasa.ac.at](https://gitlab.iiasa.ac.at) to MIND STEP partners. Once your account is approved, it is possible to create projects with an associated Git repository, wiki, issue tracker, and CI/CD pipeline. These assets can be made public (visible to anyone) or kept private. 
+
+### Privacy
+
+All three servers are hosted on IIASA premises, not in the cloud. Therefore any privacy sensitive information such as FADN data that is stored or processed is well-proteced provided that you use private GitLab repositories and protect passwords well.
