@@ -16,4 +16,4 @@ A [GitLab](https://en.wikipedia.org/wiki/GitLab) CI server is available at [http
 
 ### Privacy
 
-All three servers are hosted on IIASA premises, not in the cloud. Therefore any privacy sensitive information such as FADN data that is stored or processed is well-proteced provided that you use private GitLab repositories and protect passwords well.
+All three servers are hosted on IIASA premises, not in the cloud. Therefore any privacy sensitive information such as FADN data that is stored or processed is well-proteced provided that you use private GitLab repositories and guard passwords well.
