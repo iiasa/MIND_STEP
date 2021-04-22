@@ -1,34 +1,19 @@
 ## MIND STEP toolbox at IIASA
 
-This site provides guidance on access and use of [MIND STEP](https://mind-step.eu/) infrastructure hosted at [IIASA](https://iiasa.ac.at/).
+This site provides guidance on access and use of [MIND STEP](https://mind-step.eu/) infrastructure hosted at [IIASA](https://iiasa.ac.at/). This involves servers for Subversion, Jenkins, and GitLab
 
 ### Table of Contents
 
-* [Subversion server](#subversion-server)
-* [Jenkins server](#jenkins-server)
-* [GitLab server](#gitlab-server)
-* [Privacy](#privacy)
 * [Getting started](#getting-started)
+* [Access](#access)
+  + [Subversion server](#subversion-server)
+  + [Jenkins server](#jenkins-server)
+  + [GitLab server](#gitlab-server)
+* [Privacy](#privacy)
 * [Basic use](#basic-use)
   + [Subversion](#subversion)
   + [Jenkins](#jenkins)
   + [GitLab](#gitlab)
-
-### Subversion server
-
-A [Subversion](https://subversion.apache.org/) repository can be obtained for hosting MIND-STEP-related code and data. Repositories can be accessed with a Subversion client (e.g. [TortoiseSVN](https://tortoisesvn.net/)) or from a CI server via a URL of the form `https://svnesm.iiasa.ac.at/svn/myrepo` where 'myrepo' is the name of the repository you obtained. To obtain a repository, email to ![](images/email.png) and suggest a name. Your request will be verified and forwarded to the IIASA ICT department who will contact you by email with the credentials (username and password).
-
-### Jenkins server
-
-A [Jenkins](https://www.jenkins.io/) Continuous Integration (CI) server is available at [https://mind-step-ci.iiasa.ac.at](https://mind-step-ci.iiasa.ac.at) for hosting test and integration automation jobs. These jobs can be configured and managed via the web interface available under the given link. Job configuration can also be contained in a [Jenkinsfile](https://www.jenkins.io/doc/book/pipeline/jenkinsfile/) stored in your repository. To obtain access, email to ![](images/email.png). Your request will be verified and forwarded to the IIASA ICT department who will contact you by email with the credentials (username and password).
-
-### GitLab server
-
-A [GitLab](https://en.wikipedia.org/wiki/GitLab) CI server is available at [https://gitlab.iiasa.ac.at](https://gitlab.iiasa.ac.at) to MIND STEP partners. Once your account is approved, it is possible to create projects with an associated Git repository, wiki, issue tracker, and CI/CD pipeline. These assets can be made public (visible to anyone) or kept private. 
-
-### Privacy
-
-All three servers are hosted on IIASA premises, not in the cloud. Therefore any privacy sensitive information such as FADN data that is stored or processed is well-proteced provided that you use private GitLab repositories and guard passwords well.
 
 ### Getting started
 
@@ -45,7 +30,25 @@ So what kind of repository should you want? You may be familiar with the very us
 
 An important consideration in choosing the test/CI/CD platform is the level of integration. To integrate, Jenkins uses plug-ins that talk to different kinds of version control systems and need to be configured with URLs and credentials. Getting a Jenkins pipeline going therefore requires considerable manual effort and knowledge of subsystems. GitLab has Git repository hosting built-in as well as other services, and integration of these services with pipelines is mostly provided for, yielding a much smoother experience.
 
-Having explored the above considerations and links for your use cases and subsequently determined what MIND STEP infrastructure services you probably require, please acquire access to the required server or servers via the procedures detailed above.
+Having explored the above considerations and links for your use cases and subsequently determined what MIND STEP infrastructure services you probably require, please acquire access to the required server or servers via the procedures detailed below.
+
+### Access
+
+#### Subversion server
+
+A [Subversion](https://subversion.apache.org/) repository can be obtained for hosting MIND-STEP-related code and data. Repositories can be accessed with a Subversion client (e.g. [TortoiseSVN](https://tortoisesvn.net/)) or from a CI server via a URL of the form `https://svnesm.iiasa.ac.at/svn/myrepo` where 'myrepo' is the name of the repository you obtained. To obtain a repository, email to ![](images/email.png) and suggest a name. Your request will be verified and forwarded to the IIASA ICT department who will contact you by email with the credentials (username and password).
+
+#### Jenkins server
+
+A [Jenkins](https://www.jenkins.io/) Continuous Integration (CI) server is available at [https://mind-step-ci.iiasa.ac.at](https://mind-step-ci.iiasa.ac.at) for hosting test and integration automation jobs. These jobs can be configured and managed via the web interface available under the given link. Job configuration can also be contained in a [Jenkinsfile](https://www.jenkins.io/doc/book/pipeline/jenkinsfile/) stored in your repository. To obtain access, email to ![](images/email.png). Your request will be verified and forwarded to the IIASA ICT department who will contact you by email with the credentials (username and password).
+
+#### GitLab server
+
+A [GitLab](https://en.wikipedia.org/wiki/GitLab) CI server is available at [https://gitlab.iiasa.ac.at](https://gitlab.iiasa.ac.at) to MIND STEP partners. Once your account is approved, it is possible to create projects with an associated Git repository, wiki, issue tracker, and CI/CD pipeline. These assets can be made public (visible to anyone) or kept private. 
+
+### Privacy
+
+All three servers are hosted on IIASA premises, not in the cloud. Therefore any privacy sensitive information such as FADN data that is stored or processed is well-proteced provided that you use private GitLab repositories and guard passwords well.
 
 ### Basic use
 
@@ -61,4 +64,4 @@ When provided with Jenkins credentials, verify that you can sign in at https://m
 
 #### GitLab
 
-After your GitLab account has been approved, please check that you can sign in at https://gitlab.iiasa.ac.at. Once signed in, you can click 'New project' to create a [project](https://docs.gitlab.com/ee/user/project/). This gives you a Git repository with attached services to play with. Usage is documented in the online [user documentation](https://docs.gitlab.com/ee/user/index.html). Note that for extra security, it is highly recommended to set up [2-factor authentication](https://docs.gitlab.com/ee/user/profile/account/two_factor_authentication.html#enabling-2fa)
+After your GitLab account has been approved, please check that you can sign in at https://gitlab.iiasa.ac.at. Once signed in, you can click 'New project' to create a [project](https://docs.gitlab.com/ee/user/project/). This gives you a Git repository with attached services to play with. Usage is documented in the online [user documentation](https://docs.gitlab.com/ee/user/index.html). Note that for extra security, it is highly recommended to set up [2-factor authentication](https://docs.gitlab.com/ee/user/profile/account/two_factor_authentication.html#enabling-2fa).
