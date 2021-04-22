@@ -33,4 +33,12 @@ So what kind of repository should you want? You may be familiar with the very us
 
 An important consideration in choosing the test/CI/CD platform is the level of integration. To integrate, Jenkins uses plug-ins that talk to different kinds of version control systems and need to be configured with URLs and credentials. Getting a Jenkins pipeline going therefore requires considerable manual effort and knowledge of subsystems. GitLab has Git repository hosting built-in as well as other services, and integration of these services with pipelines is mostly provided for, yielding a much smoother experience.
 
-Having explored the above considerations and links for your use cases and subsequently determined what MIND STEP infrastructure services you probably require, please acquire access to the required server or servers via the procedures detailed above. In the sections below, next steps for the different services are discussed.
+Having explored the above considerations and links for your use cases and subsequently determined what MIND STEP infrastructure services you probably require, please acquire access to the required server or servers via the procedures detailed above.
+
+### Basic use
+
+This section discusses basic use after having acquired access to each of the services.
+
+#### Subversion
+
+Once provided with a repository URL and credentials, you require a Subversion client to access the repository. This can be either the default [Command Line Client](http://svnbook.red-bean.com/en/1.7/svn-book.html#svn.ref.svn) or a graphical client such as [TortoiseSVN](https://tortoisesvn.net/) for Windows. Next check that you understand the [fundamental concepts](http://svnbook.red-bean.com/en/1.7/svn-book.html#svn.basic) and make sure that you are familiar with [basic use](http://svnbook.red-bean.com/en/1.7/svn-book.html#svn.tour). You should then be ready to pick a [repository layout](http://svnbook.red-bean.com/en/1.7/svn-book.html#svn.tour.importing.layout) and start to [import files and directories](http://svnbook.red-bean.com/en/1.7/svn-book.html#svn.tour.importing.import) into the repository.
