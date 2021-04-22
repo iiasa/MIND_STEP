@@ -42,3 +42,7 @@ This section discusses basic use after having acquired access to each of the ser
 #### Subversion
 
 Once provided with a repository URL and credentials, you require a Subversion client to access the repository. This can be either the default [Command Line Client](http://svnbook.red-bean.com/en/1.7/svn-book.html#svn.ref.svn) or a graphical client such as [TortoiseSVN](https://tortoisesvn.net/) for Windows. Next check that you understand the [fundamental concepts](http://svnbook.red-bean.com/en/1.7/svn-book.html#svn.basic) and make sure that you are familiar with [basic use](http://svnbook.red-bean.com/en/1.7/svn-book.html#svn.tour). You should then be ready to pick a [repository layout](http://svnbook.red-bean.com/en/1.7/svn-book.html#svn.tour.importing.layout) and start to [import files and directories](http://svnbook.red-bean.com/en/1.7/svn-book.html#svn.tour.importing.import) into the repository.
+
+### Jenkins
+
+Once provided with Jenkins credentials, verify that you can sign in at https://mind-step-ci.iiasa.ac.at/. The Jenkins User Handbook details [usage](https://www.jenkins.io/doc/book/using/) and also provides a more hands-on [guided tour](https://www.jenkins.io/doc/pipeline/tour/hello-world/). To start configuring a new project/job, go to the dashboard view (click 'Dashboard' on the top left), and click on 'New Item' below there.
