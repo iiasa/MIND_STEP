@@ -1,6 +1,6 @@
 ## MIND STEP toolbox at IIASA
 
-This site provides guidance on access and use of [MIND STEP](https://mind-step.eu/) infrastructure hosted at [IIASA](https://iiasa.ac.at/). This involves servers for Subversion, Jenkins, and GitLab
+This site provides guidance on access and use of [MIND STEP](https://mind-step.eu/) infrastructure hosted at [IIASA](https://iiasa.ac.at/). This involves servers for [Subversion](https://subversion.apache.org/), [Jenkins](https://www.jenkins.io/), and [GitLab](https://en.wikipedia.org/wiki/GitLab).
 
 ### Table of Contents
 
