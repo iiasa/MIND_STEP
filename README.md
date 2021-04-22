@@ -20,17 +20,17 @@ All three servers are hosted on IIASA premises, not in the cloud. Therefore any 
 
 ### Getting started
 
-To start, it is important to realize that the purposes of the Subversion server (hosting [version control](https://en.wikipedia.org/wiki/Version_control) repositories) and Jenkins server (running test/CI/CD [pipelines](https://www.jenkins.io/solutions/pipeline/)) are also covered by GitLab. It is just that GitLab hosts Git instead of Subversion repositories and has [a different way](https://docs.gitlab.com/ee/ci/quick_start/) of setting up pipelines. In addition, GitLab offers further features that are absent from Subversion + Jenkins: making a repository public, custom wikis, issue tracking, and more. Which combination to services to pick depends on your use case:
+To start, it is important to realize that the purposes of the Subversion server (hosting [version control](https://en.wikipedia.org/wiki/Version_control) repositories) and Jenkins server (running test/CI/CD [pipelines](https://www.jenkins.io/solutions/pipeline/)) are also covered by GitLab. It is just that GitLab hosts Git instead of Subversion repositories and has [a different way](https://docs.gitlab.com/ee/ci/quick_start/) of setting up pipelines. In addition, GitLab offers further features that are absent from Subversion + Jenkins: making a repository [public](https://docs.gitlab.com/ee/public_access/public_access.html), custom [wikis](https://docs.gitlab.com/ee/user/project/wiki), [issue tracking](https://docs.gitlab.com/ee/user/project/issues/), and more. Which combination of services to pick depends on your wants and needs:
 
 - If you want a Git repostiory, use GitLab
 - If you want a Subversion repository, use the Subversion server.
-- If you need to test code in a GitLab Git repository, it is easiest to use a GitLab pipeline, but Jenkins can be m ade to work as well.
+- If you need to test code in a GitLab Git repository, it is easiest to use a GitLab pipeline, but Jenkins can be made to work as well.
 - If you need to test code in a Subversion repository, either a Jenkins or a GitLab pipeline can be used.
 - ...
 
 So what kind of repository should you want? You may be familiar with the very user friendly TortoiseSVN Subversion client and therefore believe that you should use a Subversion repository. However, it is important to realize that Subversion is quite basic: it supports only a simple centralized workflow. Git is more modern and scalable by virtue of a distributed architecture that supports advanced workflows. See [this chapter](https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows) in the online Git SCM book to learn more about workflows. Particularly when collaborating accross teams or organizations do advanced workflows become necessary.
 
-Having explored the above considerations and links for your use cases and subsequently decided on what MIND STEP infrastructure services you require, please acquire access to the required server or servers as detailed above. In the sections below, next steps for the different services are discussed.
+Having explored the above considerations and links for your use cases and subsequently decided on what MIND STEP infrastructure services you require, please acquire access to the required server or servers via the procedures detailed above. In the sections below, next steps for the different services are discussed.
 
 
 
