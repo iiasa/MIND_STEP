@@ -26,11 +26,11 @@ To start, it is important to realize that the purposes of the Subversion server 
 - If you want a Subversion repository, use the Subversion server.
 - If you want to use GitLab pipelines, storing code in a GitLab Git repository makes life easiest.
 - If you need to test code in a GitLab Git repository, it is easiest to use a GitLab pipeline, but Jenkins can be made to work as well.
-- If you need to test code in a Subversion repository, either a Jenkins or a GitLab pipeline can be used.
+- If you need to test code in a Subversion repository, use Jenkins.
 - ...
 
 So what kind of repository should you want? You may be familiar with the very user friendly TortoiseSVN Subversion client and therefore believe that you should use a Subversion repository. However, it is important to realize that Subversion is quite basic: it supports only a simple centralized workflow. Git is more modern and scalable by virtue of a distributed architecture that supports advanced workflows. See [this chapter](https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows) in the online Git SCM book to learn more about workflows. Particularly when collaborating accross teams or organizations do advanced workflows become necessary.
 
-An important consideration in choosing the test/CI/CD platform is the level of integration. To integrate, Jenkins uses plug-ins that talk to different kinds of version control systems and need to be configured with URLs and credentials. Getting a Jenkins pipeline going therefore requires considerable manual effort and knowledge of subsystems. GitLab has version control built-in as well as other services, and integration of these services with pipelines is mostly provided for, yielding a much smoother experience.
+An important consideration in choosing the test/CI/CD platform is the level of integration. To integrate, Jenkins uses plug-ins that talk to different kinds of version control systems and need to be configured with URLs and credentials. Getting a Jenkins pipeline going therefore requires considerable manual effort and knowledge of subsystems. GitLab has Git repository hosting built-in as well as other services, and integration of these services with pipelines is mostly provided for, yielding a much smoother experience.
 
 Having explored the above considerations and links for your use cases and subsequently determined what MIND STEP infrastructure services you probably require, please acquire access to the required server or servers via the procedures detailed above. In the sections below, next steps for the different services are discussed.
