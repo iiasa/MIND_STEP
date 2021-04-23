@@ -53,7 +53,7 @@ All three servers are hosted on IIASA premises, not in the cloud. Therefore any 
 
 ### Basic use
 
-This section discusses basic use after having acquired access to each of the services.
+This section discusses basic use after having acquired access.
 
 #### Subversion
 
