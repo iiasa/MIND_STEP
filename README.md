@@ -37,7 +37,7 @@ Having explored the above considerations and links for your use cases and subseq
 
 #### Subversion server
 
-A [Subversion](https://subversion.apache.org/) repository can be obtained for hosting MIND-STEP-related code and data. Repositories can be accessed with a Subversion client (e.g. [TortoiseSVN](https://tortoisesvn.net/)) or from a CI server via a URL of the form `https://svnesm.iiasa.ac.at/svn/myrepo` where 'myrepo' is the name of the repository you obtained. To obtain a repository, email to ![](images/email.png) and suggest a name. Your request will be verified and forwarded to the IIASA ICT department. After processing, which may take a while, you will receive an email confirming that the repository has been set up and, and also Subversion credentials (username and password) if you don't have such already.
+A [Subversion](https://subversion.apache.org/) repository can be obtained for hosting MIND-STEP-related code and data. Repositories can be accessed with a Subversion client (e.g. [TortoiseSVN](https://tortoisesvn.net/)) or from a CI server via a URL of the form `https://svnesm.iiasa.ac.at/svn/myrepo` where 'myrepo' is the name of the repository you obtained. To obtain a repository, email to ![](images/email.png) and suggest a name. Your request will be verified and forwarded to the IIASA ICT department. After processing, which may take a while, you will receive an email confirming that the repository has been set up and also Subversion credentials (username and password) if you don't have such already.
 
 #### Jenkins server
 
