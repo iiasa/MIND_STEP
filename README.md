@@ -45,7 +45,7 @@ A [Jenkins](https://www.jenkins.io/) Continuous Integration (CI) server is avail
 
 #### GitLab server
 
-MIND STEP projects hosted on the [GitLab](https://en.wikipedia.org/wiki/GitLab) CI server are available at [https://gitlab.iiasa.ac.at/mind-step](https://gitlab.iiasa.ac.at/mind-step). That page is visible to the public, as are the pubic projects hosted under that page. However, projects that are being developed and are not ready yet for public consumption are typically set to be visible only to MIND STEP partners that are signed in to the GitLab server. Once ready for public consumption, projects are given public visibility.
+MIND STEP projects hosted on the [GitLab](https://en.wikipedia.org/wiki/GitLab) CI server are available at [https://gitlab.iiasa.ac.at/mind-step](https://gitlab.iiasa.ac.at/mind-step). That page is visible to the public, as are the public projects hosted under that page. However, projects that are being developed and are not ready yet for public consumption are typically set to be visible only to MIND STEP partners that are signed in to the GitLab server. Once ready for public consumption, projects are given public visibility.
 
 To obtain an account browse to [https://gitlab.iiasa.ac.at](https://gitlab.iiasa.ac.at) and click on the *Register now* link at the bottom right of that page. Accounts are approved only for MIND STEP partners. Once your account is approved, it is possible to create projects with an associated Git repository, wiki, issue tracker, and CI/CD pipeline.
 
