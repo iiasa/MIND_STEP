@@ -1,6 +1,6 @@
 ## MIND STEP toolbox at IIASA
 
-This site provides guidance on access and use of [MIND STEP](https://mind-step.eu/) infrastructure hosted at [IIASA](https://iiasa.ac.at/). This involves servers for [Subversion](https://subversion.apache.org/), [Jenkins](https://www.jenkins.io/), and [GitLab](https://en.wikipedia.org/wiki/GitLab).
+This site provides guidance on access and use of [MIND STEP](https://mind-step.eu/) infrastructure hosted at [IIASA](https://iiasa.ac.at/). This involves servers for [Subversion](https://subversion.apache.org/), [Jenkins](https://www.jenkins.io/), and [GitLab](https://en.wikipedia.org/wiki/GitLab). In addition there is a [web inferface](https://mindstep.geo-wiki.org/) for disseminating results.
 
 ### Table of Contents
 
@@ -33,8 +33,6 @@ An important consideration in choosing the test/CI/CD platform is the level of i
 
 Having explored the above considerations and links for your use cases and subsequently determined what MIND STEP infrastructure services you probably require, please acquire access to the required server or servers via the procedures detailed below.
 
-### Access
-
 #### Subversion server
 
 A [Subversion](https://subversion.apache.org/) repository can be obtained for hosting MIND-STEP-related code and data. Repositories can be accessed with a Subversion client (e.g. [TortoiseSVN](https://tortoisesvn.net/)) or from a CI server via a URL of the form `https://svnesm.iiasa.ac.at/svn/myrepo` where 'myrepo' is the name of the repository you obtained. To obtain a repository, email to ![](images/email.png) and suggest a name. Your request will be verified and forwarded to the IIASA ICT department. After processing, which may take a while, you will receive an email confirming that the repository has been set up and also Subversion credentials (username and password) if you don't have such already.
@@ -49,9 +47,13 @@ MIND STEP projects hosted on the [GitLab](https://en.wikipedia.org/wiki/GitLab) 
 
 To obtain an account browse to [https://gitlab.iiasa.ac.at](https://gitlab.iiasa.ac.at) and click on the *Register now* link at the bottom right of that page. Accounts are approved only for MIND STEP partners. Once your account is approved, it is possible to create projects with an associated Git repository, wiki, issue tracker, and CI/CD pipeline.
 
+#### Web Interface
+
+Model data can be visualized via the [MINDSTEP Web Interface](https://mindstep.geo-wiki.org/). The workflow for adding data to the web interface is details in the [D7.7 report](https://wageningenur4.sharepoint.com/%3ab%3a/r/sites/MINDSTEP/Gedeelde%20documenten/Deliverables/WP%207/MIND%20STEP%20deliverable%207.7_IIASA.pdf?csf=1&web=1&e=blFwCw) on the WUR SharePoint (access required).
+
 ### Privacy
 
-All three servers are hosted on IIASA premises, not in the cloud. Therefore any privacy sensitive information that is stored or processed is well-proteced provided that you use private GitLab repositories and guard your access credentials well.
+All three servers are hosted on IIASA premises, not in the cloud. Therefore any privacy sensitive information that is stored or processed is well-proteced provided that you use private GitLab repositories and guard your access credentials well. The web interface entails no privacy concerns as it serves public dissemination of anonymized data.
 
 ### Basic use
 
