@@ -49,7 +49,7 @@ To obtain an account browse to [https://gitlab.iiasa.ac.at](https://gitlab.iiasa
 
 #### Web Interface
 
-Model data can be visualized via the [MINDSTEP Web Interface](https://mindstep.geo-wiki.org/). The workflow for adding data to the web interface is details in the [D7.7 report](https://wageningenur4.sharepoint.com/%3ab%3a/r/sites/MINDSTEP/Gedeelde%20documenten/Deliverables/WP%207/MIND%20STEP%20deliverable%207.7_IIASA.pdf?csf=1&web=1&e=blFwCw) on the WUR MIND STEP SharePoint (access required).
+Model data can be visualized via the [MINDSTEP Web Interface](https://mindstep.geo-wiki.org/). The workflow for adding data to the web interface is detailed in the [D7.7 report](https://wageningenur4.sharepoint.com/%3ab%3a/r/sites/MINDSTEP/Gedeelde%20documenten/Deliverables/WP%207/MIND%20STEP%20deliverable%207.7_IIASA.pdf?csf=1&web=1&e=blFwCw) on the WUR MIND STEP SharePoint (access required).
 
 ### Privacy
 
