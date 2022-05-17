@@ -8,7 +8,7 @@ This site provides guidance on access and use of [MIND STEP](https://mind-step.e
   + [Subversion server](#subversion-server)
   + [Jenkins server](#jenkins-server)
   + [GitLab server](#gitlab-server)
-  + [Web interface](#web-interface)
+  + [Geo-Data Services](#geo-data-services)
 * [Privacy](#privacy)
 * [Basic use](#basic-use)
   + [Subversion](#subversion)
@@ -47,13 +47,13 @@ MIND STEP projects hosted on the [GitLab](https://en.wikipedia.org/wiki/GitLab) 
 
 To obtain an account browse to [https://gitlab.iiasa.ac.at](https://gitlab.iiasa.ac.at) and click on the *Register now* link at the bottom right of that page. Accounts are approved only for MIND STEP partners. Once your account is approved, it is possible to create projects with an associated Git repository, wiki, issue tracker, and CI/CD pipeline.
 
-#### Web Interface
+#### Geo-Data Services
 
-Model data can be visualized via the [MINDSTEP Web Interface](https://mindstep.geo-wiki.org/). The workflow for adding data to the web interface is detailed in the [D7.7 report](https://wageningenur4.sharepoint.com/%3ab%3a/r/sites/MINDSTEP/Gedeelde%20documenten/Deliverables/WP%207/MIND%20STEP%20deliverable%207.7_IIASA.pdf?csf=1&web=1&e=blFwCw) on the WUR MIND STEP SharePoint (access required).
+Model data can be visualized via the [MINDSTEP Geo-Data Services](https://mindstep.geo-wiki.org/). The workflow for adding data to the web interface is detailed in the [D7.7 report](https://wageningenur4.sharepoint.com/%3ab%3a/r/sites/MINDSTEP/Gedeelde%20documenten/Deliverables/WP%207/MIND%20STEP%20deliverable%207.7_IIASA.pdf?csf=1&web=1&e=blFwCw) on the WUR MIND STEP SharePoint (access required).
 
 ### Privacy
 
-All three servers are hosted on IIASA premises, not in the cloud. Therefore any privacy sensitive information that is stored or processed is well-proteced provided that you use private GitLab repositories and guard your access credentials well. The web interface entails no privacy concerns as it serves public dissemination of anonymized data.
+All three servers are hosted on IIASA premises, not in the cloud. Therefore any privacy sensitive information that is stored or processed is well-proteced provided that you use private GitLab repositories and guard your access credentials well. The Geo-Data Services entail no privacy concerns as they serves public dissemination of anonymized data.
 
 ### Basic use
 
