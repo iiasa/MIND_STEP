@@ -53,7 +53,7 @@ Model data can be visualized via the [MINDSTEP Geo-Data Services](https://mindst
 
 ### Privacy
 
-All three servers are hosted on IIASA premises, not in the cloud. Therefore any privacy sensitive information that is stored or processed is well-proteced provided that you use private GitLab repositories and guard your access credentials well. The Geo-Data Services entail no privacy concerns as they serves public dissemination of anonymized data.
+All three servers are hosted on IIASA premises, not in the cloud. Therefore any privacy sensitive information that is stored or processed is well-proteced provided that you use private GitLab repositories and guard your access credentials well. The Geo-Data Services entail no privacy concerns as they serve public dissemination of anonymized data.
 
 ### Basic use
 
