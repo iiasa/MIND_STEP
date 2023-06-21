@@ -53,7 +53,7 @@ Model data can be visualized via the [MINDSTEP Geo-Data Services](https://mindst
 
 ### Privacy
 
-All three servers are hosted on IIASA premises, not in the cloud. Therefore any privacy sensitive information that is stored or processed is well-proteced provided that you use private GitLab repositories and guard your access credentials well. The Geo-Data Services entail no privacy concerns as they serve public dissemination of anonymized data.
+All three servers are hosted on IIASA premises, not in the cloud. Therefore any privacy sensitive information that is stored or processed is well-protecetd provided that you use private GitLab repositories and guard your access credentials well. The Geo-Data Services entail no privacy concerns as they serve public dissemination of anonymized data.
 
 ### Basic use
 
@@ -71,4 +71,4 @@ When provided with Jenkins credentials, verify that you can sign in at [https://
 
 After your GitLab account has been approved, please check that you can sign in at [https://gitlab.iiasa.ac.at](https://gitlab.iiasa.ac.at). Once signed in, you can click 'New project' to create a [project](https://docs.gitlab.com/ee/user/project/). This gives you a Git repository with attached services to play with. Usage is documented in the online [user documentation](https://docs.gitlab.com/ee/user/index.html). Note that for extra security, it is highly recommended to set up [2-factor authentication](https://docs.gitlab.com/ee/user/profile/account/two_factor_authentication.html#enabling-2fa).
 
-On the IIASA GitLab, a [MIND STEP group](https://gitlab.iiasa.ac.at/mind-step) has been created under which you are requested to organize your MIND-STEP-related projects. To become a member of this group please send a request to ![](images/email.png). You can create [subroups](https://docs.gitlab.com/ee/user/group/subgroups/) under this group to better organize and classify your projects. This determines the URL at which your projects are located and optionally made public: `https://gitlab.iiasa.ac.at/mind-step/<subgroup>/<project>`.
+On the IIASA GitLab, a [MIND STEP group](https://gitlab.iiasa.ac.at/mind-step) has been created under which you are requested to organize your MIND-STEP-related projects. To become a member of this group please send a request to ![](images/email.png). You can create [subgroups](https://docs.gitlab.com/ee/user/group/subgroups/) under this group to better organize and classify your projects. This determines the URL at which your projects are located and optionally made public: `https://gitlab.iiasa.ac.at/mind-step/<subgroup>/<project>`.
