@@ -19,7 +19,7 @@ This site provides guidance on access and use of [MIND STEP](https://mind-step.e
 
 To start, it is important to realize that the purposes of the Subversion server (hosting [version control](https://en.wikipedia.org/wiki/Version_control) repositories) and Jenkins server (running test/CI/CD [pipelines](https://www.jenkins.io/solutions/pipeline/)) are also covered by GitLab. It is just that GitLab hosts [Git](https://git-scm.com/) instead of Subversion repositories and has [a different way](https://docs.gitlab.com/ee/ci/quick_start/) of setting up pipelines. In addition, GitLab offers further features that are absent from Subversion + Jenkins: making a repository [public](https://docs.gitlab.com/ee/public_access/public_access.html), custom [wikis](https://docs.gitlab.com/ee/user/project/wiki), [issue tracking](https://docs.gitlab.com/ee/user/project/issues/), and more. Which combination of services to pick depends on your wants and needs:
 
-- If you want a Git repostiory, use GitLab
+- If you want a Git repository, use GitLab
 - If you want a Subversion repository, use the Subversion server.
 - If you want to use GitLab pipelines, storing code in a GitLab Git repository makes life easiest.
 - If you need to test code in a GitLab Git repository, it is easiest to use a GitLab pipeline, but Jenkins can be made to work as well.
@@ -27,7 +27,7 @@ To start, it is important to realize that the purposes of the Subversion server 
 - If you need to make code or data public, use GitLab.
 - ...
 
-So what kind of repository should you want? You may be familiar with the very user friendly TortoiseSVN Subversion client and therefore believe that you should use a Subversion repository. However, it is important to realize that Subversion is quite basic: it supports only a simple centralized workflow. Git is more modern and scalable by virtue of a distributed architecture that supports advanced workflows. See [this chapter](https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows) in the online Git SCM book to learn more about workflows. Particularly when collaborating accross teams or organizations do advanced workflows become necessary.
+So what kind of repository should you want? You may be familiar with the very user friendly TortoiseSVN Subversion client and therefore believe that you should use a Subversion repository. However, it is important to realize that Subversion is quite basic: it supports only a simple centralized workflow. Git is more modern and scalable by virtue of a distributed architecture that supports advanced workflows. See [this chapter](https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows) in the online Git SCM book to learn more about workflows. Particularly when collaborating across teams or organizations do advanced workflows become necessary.
 
 An important consideration in choosing the test/CI/CD platform is the level of integration. To integrate, Jenkins uses plug-ins that talk to different kinds of version control systems and need to be configured with URLs and credentials. Getting a Jenkins pipeline going therefore requires considerable manual effort and knowledge of subsystems. GitLab has Git repository hosting built-in as well as other services. Integration of these services with pipelines is mostly provided for, yielding a much smoother experience.
 
@@ -53,7 +53,7 @@ Model data can be visualized via the [MINDSTEP Geo-Data Services](https://mindst
 
 ### Privacy
 
-All three servers are hosted on IIASA premises, not in the cloud. Therefore any privacy sensitive information that is stored or processed is well-protecetd provided that you use private GitLab repositories and guard your access credentials well. The Geo-Data Services entail no privacy concerns as they serve public dissemination of anonymized data.
+All three servers are hosted on IIASA premises, not in the cloud. Therefore any privacy sensitive information that is stored or processed is well-protected provided that you use private GitLab repositories and guard your access credentials well. The Geo-Data Services entail no privacy concerns as they serve public dissemination of anonymized data.
 
 ### Basic use
 
